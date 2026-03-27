@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Posto Granada – Combustíveis e lubrificantes de qualidade no seu bairro. Gasolina, etanol, diesel e muito mais. Atendimento rápido e preço justo." />
+  <meta name="keywords" content="posto de combustível, gasolina, etanol, diesel, lubrificantes, Posto Granada, Auto Posto Parque Granada" />
+  <meta name="author" content="Auto Posto Parque Granada" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Posto Granada | Combustíveis e Lubrificantes" />
+  <meta property="og:description" content="Abasteça com qualidade e confiança no Posto Granada. Gasolina, etanol, diesel e lubrificantes com o melhor atendimento." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://postogranada.com.br" />
+  <meta property="og:image" content="/assets/img/og-image.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg" />
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png" />
+
+  <!-- Preconnect fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Barlow+Condensed:wght@600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwOg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <title>Posto Granada | Auto Posto Parque Granada</title>
+</head>
+<body>
+
+  <!-- ===== HEADER / NAVBAR ===== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo" aria-label="Posto Granada">
+        <div class="logo__icon">
+          <i class="fas fa-gas-pump"></i>
+        </div>
+        <div class="logo__text">
+          <span class="logo__name">Posto Granada</span>
+          <span class="logo__sub">Auto Posto Parque Granada</span>
+        </div>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Menu principal">
+        <ul class="nav__list">
+          <li><a href="#inicio" class="nav__link active">Início</a></li>
+          <li><a href="#combustiveis" class="nav__link">Combustíveis</a></li>
+          <li><a href="#servicos" class="nav__link">Serviços</a></li>
+          <li><a href="#sobre" class="nav__link">Sobre</a></li>
+          <li><a href="#contato" class="nav__link">Contato</a></li>
+          <li><a href="tel:+5511999999999" class="btn btn--sm btn--primary nav__cta"><i class="fas fa-phone"></i> Ligue Agora</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="inicio">
+    <div class="hero__bg-anim">
+      <div class="hero__particle"></div>
+      <div class="hero__particle"></div>
+      <div class="hero__particle"></div>
+    </div>
+    <div class="container hero__inner">
+      <div class="hero__content" data-aos="fade-right">
+        <div class="hero__badge"><i class="fas fa-star"></i> Qualidade que você pode confiar</div>
+        <h1 class="hero__title">
+          Abasteça com<br />
+          <span class="highlight">qualidade</span> e<br />
+          confiança
+        </h1>
+        <p class="hero__desc">
+          No Posto Granada você encontra combustíveis de alta qualidade,
+          lubrificantes premium e atendimento que faz a diferença. Sua jornada
+          começa aqui.
+        </p>
+        <div class="hero__actions">
+          <a href="#combustiveis" class="btn btn--primary btn--lg">
+            <i class="fas fa-gas-pump"></i> Ver Combustíveis
+          </a>
+          <a href="#contato" class="btn btn--outline btn--lg">
+            <i class="fas fa-map-marker-alt"></i> Como Chegar
+          </a>
+        </div>
+        <div class="hero__stats">
+          <div class="stat">
+            <span class="stat__num">24h</span>
+            <span class="stat__label">Funcionamento</span>
+          </div>
+          <div class="stat__divider"></div>
+          <div class="stat">
+            <span class="stat__num">+10</span>
+            <span class="stat__label">Anos de Tradição</span>
+          </div>
+          <div class="stat__divider"></div>
+          <div class="stat">
+            <span class="stat__num">100%</span>
+            <span class="stat__label">Combustível Garantido</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__visual" data-aos="fade-left">
+        <div class="hero__card-stack">
+          <div class="pump-icon-wrap">
+            <i class="fas fa-gas-pump pump-icon"></i>
+          </div>
+          <div class="floating-badge fb1"><i class="fas fa-check-circle"></i> Combustível Premium</div>
+          <div class="floating-badge fb2"><i class="fas fa-bolt"></i> Atendimento Rápido</div>
+          <div class="floating-badge fb3"><i class="fas fa-shield-alt"></i> Empresa Confiável</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero__wave">
+      <svg viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#0f0f0f"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ===== BANDA DE CONFIANÇA ===== -->
+  <section class="trust-band">
+    <div class="container trust-band__inner">
+      <div class="trust-item"><i class="fas fa-check-circle"></i><span>NF Garantida</span></div>
+      <div class="trust-item"><i class="fas fa-tachometer-alt"></i><span>Bombas Calibradas INMETRO</span></div>
+      <div class="trust-item"><i class="fas fa-leaf"></i><span>Combustível Certificado</span></div>
+      <div class="trust-item"><i class="fas fa-credit-card"></i><span>Todas as Bandeiras</span></div>
+      <div class="trust-item"><i class="fas fa-headset"></i><span>Atendimento 24h</span></div>
+    </div>
+  </section>
+
+  <!-- ===== COMBUSTÍVEIS ===== -->
+  <section class="section" id="combustiveis">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag"><i class="fas fa-gas-pump"></i> Nossos Produtos</span>
+        <h2 class="section-title">Combustíveis de <span class="highlight">Alta Qualidade</span></h2>
+        <p class="section-desc">Trabalhamos apenas com fornecedores certificados para garantir o melhor desempenho para o seu veículo.</p>
+      </div>
+      <div class="fuels-grid" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="fuel-card fuel-card--gasolina">
+          <div class="fuel-card__icon">
+            <i class="fas fa-fire"></i>
+          </div>
+          <h3 class="fuel-card__name">Gasolina Comum</h3>
+          <p class="fuel-card__desc">Combustível ideal para o uso diário, com ótima relação custo-benefício e desempenho consistente.</p>
+          <ul class="fuel-card__features">
+            <li><i class="fas fa-check"></i> Motor protegido</li>
+            <li><i class="fas fa-check"></i> Melhor consumo</li>
+            <li><i class="fas fa-check"></i> Qualidade ANTT</li>
+          </ul>
+          <div class="fuel-card__badge">Mais Vendido</div>
+        </div>
+
+        <div class="fuel-card fuel-card--aditivada">
+          <div class="fuel-card__icon">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <h3 class="fuel-card__name">Gasolina Aditivada</h3>
+          <p class="fuel-card__desc">Fórmula premium com aditivos especiais que limpam o motor, aumentam a potência e reduzem emissões.</p>
+          <ul class="fuel-card__features">
+            <li><i class="fas fa-check"></i> Limpa o motor</li>
+            <li><i class="fas fa-check"></i> Mais potência</li>
+            <li><i class="fas fa-check"></i> Menos emissão</li>
+          </ul>
+          <div class="fuel-card__badge fuel-card__badge--premium">Premium</div>
+        </div>
+
+        <div class="fuel-card fuel-card--etanol">
+          <div class="fuel-card__icon">
+            <i class="fas fa-seedling"></i>
+          </div>
+          <h3 class="fuel-card__name">Etanol</h3>
+          <p class="fuel-card__desc">Combustível renovável e sustentável, 100% nacional, com excelente octanagem e custo reduzido.</p>
+          <ul class="fuel-card__features">
+            <li><i class="fas fa-check"></i> 100% renovável</li>
+            <li><i class="fas fa-check"></i> Custo menor</li>
+            <li><i class="fas fa-check"></i> Produção nacional</li>
+          </ul>
+          <div class="fuel-card__badge fuel-card__badge--eco">Sustentável</div>
+        </div>
+
+        <div class="fuel-card fuel-card--diesel">
+          <div class="fuel-card__icon">
+            <i class="fas fa-truck"></i>
+          </div>
+          <h3 class="fuel-card__name">Diesel S-10</h3>
+          <p class="fuel-card__desc">Diesel de baixo teor de enxofre, ideal para frotas pesadas, caminhões e veículos de alta performance.</p>
+          <ul class="fuel-card__features">
+            <li><i class="fas fa-check"></i> Baixo enxofre</li>
+            <li><i class="fas fa-check"></i> Maior durabilidade</li>
+            <li><i class="fas fa-check"></i> Para frotas</li>
+          </ul>
+          <div class="fuel-card__badge fuel-card__badge--diesel">Frotas</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVIÇOS ===== -->
+  <section class="section section--dark" id="servicos">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag"><i class="fas fa-wrench"></i> O que oferecemos</span>
+        <h2 class="section-title">Nossos <span class="highlight">Serviços</span></h2>
+        <p class="section-desc">Além do abastecimento, oferecemos uma gama completa de serviços para manter seu veículo em perfeito estado.</p>
+      </div>
+      <div class="services-grid" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="service-card">
+          <div class="service-card__icon"><i class="fas fa-oil-can"></i></div>
+          <h3 class="service-card__title">Troca de Óleo</h3>
+          <p class="service-card__desc">Lubrificantes de todas as marcas e viscosidades. Atendimento rápido sem agendamento.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon"><i class="fas fa-wind"></i></div>
+          <h3 class="service-card__title">Calibragem de Pneus</h3>
+          <p class="service-card__desc">Calibragem gratuita com equipamentos de precision aferidos pelo INMETRO.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon"><i class="fas fa-water"></i></div>
+          <h3 class="service-card__title">Água Destilada</h3>
+          <p class="service-card__desc">Reposição de água destilada para bateria, mantendo o sistema elétrico eficiente.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon"><i class="fas fa-snowflake"></i></div>
+          <h3 class="service-card__title">Fluido de Arrefecimento</h3>
+          <p class="service-card__desc">Verificação e reposição de fluido de arrefecimento para proteger seu motor do superaquecimento.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon"><i class="fas fa-shopping-basket"></i></div>
+          <h3 class="service-card__title">Loja de Conveniência</h3>
+          <p class="service-card__desc">Snacks, bebidas, produtos de limpeza, acessórios automotivos e muito mais disponíveis 24h.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon"><i class="fas fa-file-invoice"></i></div>
+          <h3 class="service-card__title">Nota Fiscal Sempre</h3>
+          <p class="service-card__desc">Emitimos NF-e para todos os abastecimentos. Ideal para frota empresarial e controle fiscal.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SOBRE ===== -->
+  <section class="section" id="sobre">
+    <div class="container sobre__inner">
+      <div class="sobre__content" data-aos="fade-right">
+        <span class="section-tag"><i class="fas fa-building"></i> Quem Somos</span>
+        <h2 class="section-title">Tradição e <span class="highlight">Confiança</span></h2>
+        <p class="sobre__text">
+          O <strong>Auto Posto Parque Granada</strong> é uma empresa sólida, com anos de experiência no
+          comércio varejista de combustíveis e lubrificantes. Fundada com o compromisso de
+          oferecer produtos de qualidade e atendimento humanizado, nos tornamos referência na região.
+        </p>
+        <p class="sobre__text">
+          Operamos com total conformidade legal, emitindo nota fiscal em todas as transações e
+          mantendo nossas bombas calibradas e certificadas pelo INMETRO. Nossa missão é
+          garantir que cada cliente saia satisfeito e com a certeza de ter recebido o melhor.
+        </p>
+
+        <div class="sobre__info-cards">
+          <div class="info-card">
+            <i class="fas fa-id-card"></i>
+            <div>
+              <span class="info-card__label">CNPJ</span>
+              <span class="info-card__value">01.507.529/0001-69</span>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-tag"></i>
+            <div>
+              <span class="info-card__label">Razão Social</span>
+              <span class="info-card__value">Auto Posto Parque Granada</span>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-store"></i>
+            <div>
+              <span class="info-card__label">Nome Fantasia</span>
+              <span class="info-card__value">Posto Granada</span>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-list-alt"></i>
+            <div>
+              <span class="info-card__label">Atividade Principal</span>
+              <span class="info-card__value">Com. Varejista de Combustíveis (CNAE 47.31-8-00)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sobre__visual" data-aos="fade-left">
+        <div class="sobre__image-wrap">
+          <div class="sobre__icon-display">
+            <i class="fas fa-gas-pump"></i>
+          </div>
+          <div class="sobre__badge-float s1">
+            <i class="fas fa-award"></i>
+            <span>Empresa Certificada</span>
+          </div>
+          <div class="sobre__badge-float s2">
+            <i class="fas fa-handshake"></i>
+            <span>Atendimento Honesto</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA FROTA ===== -->
+  <section class="cta-frota">
+    <div class="container cta-frota__inner" data-aos="fade-up">
+      <div class="cta-frota__text">
+        <h2>Sua empresa tem frota?</h2>
+        <p>Oferecemos condições especiais para frotas empresariais — controle de abastecimento, NF-e, e preço diferenciado. Fale conosco e saiba mais.</p>
+      </div>
+      <a href="#contato" class="btn btn--white btn--lg">
+        <i class="fas fa-truck"></i> Quero Condições para Frota
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== CONTATO ===== -->
+  <section class="section" id="contato">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag"><i class="fas fa-envelope"></i> Fale Conosco</span>
+        <h2 class="section-title">Entre em <span class="highlight">Contato</span></h2>
+        <p class="section-desc">Dúvidas, informações ou proposta para frota? Nossa equipe está pronta para atender você.</p>
+      </div>
+
+      <div class="contact__wrap">
+        <div class="contact__info" data-aos="fade-right">
+          <div class="contact__item">
+            <div class="contact__item-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <strong>Endereço</strong>
+              <span>Parque Granada – Consulte nosso endereço completo</span>
+            </div>
+          </div>
+          <div class="contact__item">
+            <div class="contact__item-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <strong>Telefone</strong>
+              <span><a href="tel:+5511999999999">(11) 9 9999-9999</a></span>
+            </div>
+          </div>
+          <div class="contact__item">
+            <div class="contact__item-icon"><i class="fab fa-whatsapp"></i></div>
+            <div>
+              <strong>WhatsApp</strong>
+              <span><a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">Envie uma mensagem</a></span>
+            </div>
+          </div>
+          <div class="contact__item">
+            <div class="contact__item-icon"><i class="fas fa-clock"></i></div>
+            <div>
+              <strong>Horário</strong>
+              <span>Aberto 24 horas, todos os dias</span>
+            </div>
+          </div>
+          <div class="contact__item">
+            <div class="contact__item-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <strong>E-mail</strong>
+              <span><a href="mailto:contato@postogranada.com.br">contato@postogranada.com.br</a></span>
+            </div>
+          </div>
+          <div class="contact__social">
+            <a href="#" class="social-btn" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-btn" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://wa.me/5511999999999" class="social-btn social-btn--whatsapp" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="contact__form-wrap" data-aos="fade-left">
+          <form class="contact__form" id="contactForm" novalidate>
+            <h3 class="contact__form-title">Envie uma mensagem</h3>
+            <div class="form__group">
+              <label for="name" class="form__label">Seu nome *</label>
+              <input type="text" id="name" name="name" class="form__input" placeholder="João Silva" required autocomplete="name" />
+              <span class="form__error" id="nameError"></span>
+            </div>
+            <div class="form__group">
+              <label for="phone" class="form__label">Telefone / WhatsApp *</label>
+              <input type="tel" id="phone" name="phone" class="form__input" placeholder="(11) 9 9999-9999" required autocomplete="tel" />
+              <span class="form__error" id="phoneError"></span>
+            </div>
+            <div class="form__group">
+              <label for="email" class="form__label">E-mail</label>
+              <input type="email" id="email" name="email" class="form__input" placeholder="joao@email.com" autocomplete="email" />
+              <span class="form__error" id="emailError"></span>
+            </div>
+            <div class="form__group">
+              <label for="subject" class="form__label">Assunto *</label>
+              <select id="subject" name="subject" class="form__input form__select" required>
+                <option value="">Selecione...</option>
+                <option value="informacoes">Informações gerais</option>
+                <option value="frota">Contrato para frota</option>
+                <option value="lubrificantes">Lubrificantes</option>
+                <option value="outro">Outro assunto</option>
+              </select>
+              <span class="form__error" id="subjectError"></span>
+            </div>
+            <div class="form__group">
+              <label for="message" class="form__label">Mensagem *</label>
+              <textarea id="message" name="message" class="form__input form__textarea" placeholder="Descreva sua dúvida ou necessidade..." rows="4" required></textarea>
+              <span class="form__error" id="messageError"></span>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full" id="submitBtn">
+              <i class="fas fa-paper-plane"></i> Enviar Mensagem
+            </button>
+            <div class="form__success" id="formSuccess" hidden>
+              <i class="fas fa-check-circle"></i> Mensagem enviada com sucesso! Em breve entraremos em contato.
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Mapa placeholder -->
+      <div class="map-placeholder" data-aos="fade-up">
+        <div class="map-placeholder__inner">
+          <i class="fas fa-map-marked-alt"></i>
+          <p>Insira aqui o embed do Google Maps com o endereço do posto</p>
+          <!-- Substitua este bloco pelo iframe do Google Maps -->
+          <!-- <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="400" style="border:0;" allowfullscreen loading="lazy"></iframe> -->
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <div class="logo logo--footer">
+          <div class="logo__icon"><i class="fas fa-gas-pump"></i></div>
+          <div class="logo__text">
+            <span class="logo__name">Posto Granada</span>
+            <span class="logo__sub">Auto Posto Parque Granada</span>
+          </div>
+        </div>
+        <p class="footer__tagline">Qualidade, confiança e atendimento que fazem a diferença no seu dia a dia.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://wa.me/5511999999999" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="footer__links">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#combustiveis">Combustíveis</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__links">
+        <h4>Serviços</h4>
+        <ul>
+          <li><a href="#combustiveis">Gasolina Comum</a></li>
+          <li><a href="#combustiveis">Gasolina Aditivada</a></li>
+          <li><a href="#combustiveis">Etanol</a></li>
+          <li><a href="#combustiveis">Diesel S-10</a></li>
+          <li><a href="#servicos">Troca de Óleo</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__contact">
+        <h4>Contato</h4>
+        <ul>
+          <li><i class="fas fa-phone"></i> <a href="tel:+5511999999999">(11) 9 9999-9999</a></li>
+          <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+          <li><i class="fas fa-envelope"></i> <a href="mailto:contato@postogranada.com.br">contato@postogranada.com.br</a></li>
+          <li><i class="fas fa-clock"></i> Aberto 24h / 7 dias</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__legal">
+      <div class="container footer__legal-inner">
+        <p>&copy; 2026 Auto Posto Parque Granada – CNPJ 01.507.529/0001-69. Todos os direitos reservados.</p>
+        <div class="footer__legal-links">
+          <a href="/politica-de-privacidade.html">Política de Privacidade</a>
+          <a href="/termos-de-uso.html">Termos de Uso</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/5511999999999" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Fale no WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="whatsapp-float__tooltip">Fale conosco!</span>
+  </a>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo" hidden>
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>
